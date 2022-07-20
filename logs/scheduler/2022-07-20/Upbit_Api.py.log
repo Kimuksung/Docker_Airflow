@@ -2143,3 +2143,122 @@ airflow.exceptions.AirflowException: Argument ['sql'] is required
 [2022-07-20 07:59:10,667] {logging_mixin.py:109} INFO - [2022-07-20 07:59:10,667] {dag.py:2398} INFO - Sync 1 DAGs
 [2022-07-20 07:59:10,687] {logging_mixin.py:109} INFO - [2022-07-20 07:59:10,686] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
 [2022-07-20 07:59:10,700] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.669 seconds
+[2022-07-20 07:59:40,892] {processor.py:163} INFO - Started process (PID=9215) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 07:59:40,893] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 07:59:40,894] {logging_mixin.py:109} INFO - [2022-07-20 07:59:40,894] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 07:59:41,597] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 07:59:41,611] {logging_mixin.py:109} INFO - [2022-07-20 07:59:41,610] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 07:59:41,634] {logging_mixin.py:109} INFO - [2022-07-20 07:59:41,634] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 07:59:41,653] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.767 seconds
+[2022-07-20 08:00:12,394] {processor.py:163} INFO - Started process (PID=9256) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:00:12,396] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:00:12,398] {logging_mixin.py:109} INFO - [2022-07-20 08:00:12,397] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:00:13,156] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:00:13,168] {logging_mixin.py:109} INFO - [2022-07-20 08:00:13,168] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:00:13,188] {logging_mixin.py:109} INFO - [2022-07-20 08:00:13,188] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:00:13,200] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.813 seconds
+[2022-07-20 08:00:43,917] {processor.py:163} INFO - Started process (PID=9287) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:00:43,919] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:00:43,920] {logging_mixin.py:109} INFO - [2022-07-20 08:00:43,919] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:00:44,437] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:00:44,449] {logging_mixin.py:109} INFO - [2022-07-20 08:00:44,448] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:00:44,468] {logging_mixin.py:109} INFO - [2022-07-20 08:00:44,468] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:00:44,480] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.567 seconds
+[2022-07-20 08:01:15,153] {processor.py:163} INFO - Started process (PID=9320) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:01:15,155] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:01:15,156] {logging_mixin.py:109} INFO - [2022-07-20 08:01:15,155] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:01:15,651] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:01:15,661] {logging_mixin.py:109} INFO - [2022-07-20 08:01:15,661] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:01:15,679] {logging_mixin.py:109} INFO - [2022-07-20 08:01:15,679] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:01:15,690] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.540 seconds
+[2022-07-20 08:01:46,555] {processor.py:163} INFO - Started process (PID=9361) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:01:46,556] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:01:46,557] {logging_mixin.py:109} INFO - [2022-07-20 08:01:46,557] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:01:47,268] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:01:47,281] {logging_mixin.py:109} INFO - [2022-07-20 08:01:47,280] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:01:47,303] {logging_mixin.py:109} INFO - [2022-07-20 08:01:47,303] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:01:47,319] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.769 seconds
+[2022-07-20 08:02:18,093] {processor.py:163} INFO - Started process (PID=9393) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:02:18,112] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:02:18,113] {logging_mixin.py:109} INFO - [2022-07-20 08:02:18,112] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:02:19,023] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:02:19,036] {logging_mixin.py:109} INFO - [2022-07-20 08:02:19,036] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:02:19,065] {logging_mixin.py:109} INFO - [2022-07-20 08:02:19,065] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:02:19,088] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.999 seconds
+[2022-07-20 08:02:49,228] {processor.py:163} INFO - Started process (PID=9426) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:02:49,265] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:02:49,267] {logging_mixin.py:109} INFO - [2022-07-20 08:02:49,266] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:02:49,826] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:02:49,839] {logging_mixin.py:109} INFO - [2022-07-20 08:02:49,838] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:02:49,859] {logging_mixin.py:109} INFO - [2022-07-20 08:02:49,859] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:02:49,872] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.648 seconds
+[2022-07-20 08:03:20,166] {processor.py:163} INFO - Started process (PID=9459) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:03:20,168] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:03:20,168] {logging_mixin.py:109} INFO - [2022-07-20 08:03:20,168] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:03:20,798] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:03:20,809] {logging_mixin.py:109} INFO - [2022-07-20 08:03:20,809] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:03:20,828] {logging_mixin.py:109} INFO - [2022-07-20 08:03:20,828] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:03:20,841] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.679 seconds
+[2022-07-20 08:03:51,666] {processor.py:163} INFO - Started process (PID=9494) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:03:51,669] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:03:51,670] {logging_mixin.py:109} INFO - [2022-07-20 08:03:51,670] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:03:52,197] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:03:52,209] {logging_mixin.py:109} INFO - [2022-07-20 08:03:52,209] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:03:52,228] {logging_mixin.py:109} INFO - [2022-07-20 08:03:52,228] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:03:52,242] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.581 seconds
+[2022-07-20 08:04:23,077] {processor.py:163} INFO - Started process (PID=9528) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:04:23,079] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:04:23,080] {logging_mixin.py:109} INFO - [2022-07-20 08:04:23,080] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:04:23,570] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:04:23,593] {logging_mixin.py:109} INFO - [2022-07-20 08:04:23,592] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:04:23,624] {logging_mixin.py:109} INFO - [2022-07-20 08:04:23,624] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:04:23,651] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.582 seconds
+[2022-07-20 08:04:54,440] {processor.py:163} INFO - Started process (PID=9571) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:04:54,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:04:54,443] {logging_mixin.py:109} INFO - [2022-07-20 08:04:54,443] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:04:54,944] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:04:54,955] {logging_mixin.py:109} INFO - [2022-07-20 08:04:54,954] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:04:54,977] {logging_mixin.py:109} INFO - [2022-07-20 08:04:54,977] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:04:54,993] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.558 seconds
+[2022-07-20 08:05:25,157] {processor.py:163} INFO - Started process (PID=9605) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:05:25,159] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:05:25,160] {logging_mixin.py:109} INFO - [2022-07-20 08:05:25,160] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:05:25,939] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:05:25,955] {logging_mixin.py:109} INFO - [2022-07-20 08:05:25,954] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:05:25,983] {logging_mixin.py:109} INFO - [2022-07-20 08:05:25,983] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:05:26,005] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.854 seconds
+[2022-07-20 08:05:56,234] {processor.py:163} INFO - Started process (PID=9637) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:05:56,236] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:05:56,237] {logging_mixin.py:109} INFO - [2022-07-20 08:05:56,237] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:05:56,800] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:05:56,815] {logging_mixin.py:109} INFO - [2022-07-20 08:05:56,814] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:05:56,837] {logging_mixin.py:109} INFO - [2022-07-20 08:05:56,837] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:05:56,852] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.626 seconds
+[2022-07-20 08:06:26,877] {processor.py:163} INFO - Started process (PID=9670) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:06:26,878] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:06:26,879] {logging_mixin.py:109} INFO - [2022-07-20 08:06:26,878] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:06:27,414] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:06:27,423] {logging_mixin.py:109} INFO - [2022-07-20 08:06:27,423] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:06:27,442] {logging_mixin.py:109} INFO - [2022-07-20 08:06:27,441] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:06:27,454] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 0.581 seconds
+[2022-07-20 08:06:58,420] {processor.py:163} INFO - Started process (PID=9703) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:06:58,422] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:06:58,429] {logging_mixin.py:109} INFO - [2022-07-20 08:06:58,429] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:06:59,829] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:06:59,896] {logging_mixin.py:109} INFO - [2022-07-20 08:06:59,895] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:06:59,947] {logging_mixin.py:109} INFO - [2022-07-20 08:06:59,947] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:06:59,989] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 1.574 seconds
+[2022-07-20 08:07:30,208] {processor.py:163} INFO - Started process (PID=9744) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:07:30,215] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:07:30,216] {logging_mixin.py:109} INFO - [2022-07-20 08:07:30,216] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:07:31,313] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:07:31,327] {logging_mixin.py:109} INFO - [2022-07-20 08:07:31,327] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:07:31,350] {logging_mixin.py:109} INFO - [2022-07-20 08:07:31,350] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:07:31,366] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 1.162 seconds
+[2022-07-20 08:08:01,685] {processor.py:163} INFO - Started process (PID=9776) to work on /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:08:01,688] {processor.py:642} INFO - Processing file /opt/airflow/dags/Upbit_Api.py for tasks to queue
+[2022-07-20 08:08:01,689] {logging_mixin.py:109} INFO - [2022-07-20 08:08:01,689] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:08:02,797] {processor.py:654} INFO - DAG(s) dict_keys(['Upbit_api']) retrieved from /opt/airflow/dags/Upbit_Api.py
+[2022-07-20 08:08:02,816] {logging_mixin.py:109} INFO - [2022-07-20 08:08:02,815] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:08:02,854] {logging_mixin.py:109} INFO - [2022-07-20 08:08:02,853] {dag.py:2937} INFO - Setting next_dagrun for Upbit_api to 2022-07-20T07:00:00+00:00
+[2022-07-20 08:08:03,090] {processor.py:171} INFO - Processing /opt/airflow/dags/Upbit_Api.py took 1.411 seconds

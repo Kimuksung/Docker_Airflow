@@ -2690,3 +2690,122 @@ NameError: name 'ti' is not defined
 [2022-07-20 07:59:10,639] {logging_mixin.py:109} INFO - [2022-07-20 07:59:10,638] {dag.py:2398} INFO - Sync 1 DAGs
 [2022-07-20 07:59:10,658] {logging_mixin.py:109} INFO - [2022-07-20 07:59:10,658] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
 [2022-07-20 07:59:10,670] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.634 seconds
+[2022-07-20 07:59:40,895] {processor.py:163} INFO - Started process (PID=9216) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 07:59:40,896] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 07:59:40,897] {logging_mixin.py:109} INFO - [2022-07-20 07:59:40,897] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 07:59:41,585] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 07:59:41,600] {logging_mixin.py:109} INFO - [2022-07-20 07:59:41,600] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 07:59:41,623] {logging_mixin.py:109} INFO - [2022-07-20 07:59:41,623] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 07:59:41,641] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.751 seconds
+[2022-07-20 08:00:12,414] {processor.py:163} INFO - Started process (PID=9257) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:00:12,420] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:00:12,421] {logging_mixin.py:109} INFO - [2022-07-20 08:00:12,421] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:00:13,137] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:00:13,148] {logging_mixin.py:109} INFO - [2022-07-20 08:00:13,147] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:00:13,169] {logging_mixin.py:109} INFO - [2022-07-20 08:00:13,169] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:00:13,190] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.811 seconds
+[2022-07-20 08:00:43,922] {processor.py:163} INFO - Started process (PID=9288) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:00:43,923] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:00:43,924] {logging_mixin.py:109} INFO - [2022-07-20 08:00:43,923] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:00:44,451] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:00:44,461] {logging_mixin.py:109} INFO - [2022-07-20 08:00:44,461] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:00:44,482] {logging_mixin.py:109} INFO - [2022-07-20 08:00:44,482] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:00:44,493] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.575 seconds
+[2022-07-20 08:01:15,158] {processor.py:163} INFO - Started process (PID=9321) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:01:15,159] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:01:15,160] {logging_mixin.py:109} INFO - [2022-07-20 08:01:15,160] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:01:15,669] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:01:15,680] {logging_mixin.py:109} INFO - [2022-07-20 08:01:15,679] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:01:15,699] {logging_mixin.py:109} INFO - [2022-07-20 08:01:15,699] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:01:15,710] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.555 seconds
+[2022-07-20 08:01:46,567] {processor.py:163} INFO - Started process (PID=9362) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:01:46,568] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:01:46,569] {logging_mixin.py:109} INFO - [2022-07-20 08:01:46,569] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:01:47,330] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:01:47,343] {logging_mixin.py:109} INFO - [2022-07-20 08:01:47,343] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:01:47,369] {logging_mixin.py:109} INFO - [2022-07-20 08:01:47,369] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:01:47,383] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.821 seconds
+[2022-07-20 08:02:18,109] {processor.py:163} INFO - Started process (PID=9394) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:02:18,128] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:02:18,132] {logging_mixin.py:109} INFO - [2022-07-20 08:02:18,131] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:02:19,643] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:02:19,656] {logging_mixin.py:109} INFO - [2022-07-20 08:02:19,656] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:02:19,679] {logging_mixin.py:109} INFO - [2022-07-20 08:02:19,679] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:02:19,696] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 1.592 seconds
+[2022-07-20 08:02:49,895] {processor.py:163} INFO - Started process (PID=9430) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:02:49,904] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:02:49,905] {logging_mixin.py:109} INFO - [2022-07-20 08:02:49,905] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:02:50,463] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:02:50,478] {logging_mixin.py:109} INFO - [2022-07-20 08:02:50,477] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:02:50,499] {logging_mixin.py:109} INFO - [2022-07-20 08:02:50,499] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:02:50,518] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.627 seconds
+[2022-07-20 08:03:20,863] {processor.py:163} INFO - Started process (PID=9464) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:03:20,864] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:03:20,865] {logging_mixin.py:109} INFO - [2022-07-20 08:03:20,865] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:03:21,492] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:03:21,501] {logging_mixin.py:109} INFO - [2022-07-20 08:03:21,501] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:03:21,521] {logging_mixin.py:109} INFO - [2022-07-20 08:03:21,521] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:03:21,534] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.675 seconds
+[2022-07-20 08:03:51,671] {processor.py:163} INFO - Started process (PID=9495) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:03:51,673] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:03:51,674] {logging_mixin.py:109} INFO - [2022-07-20 08:03:51,674] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:03:52,203] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:03:52,214] {logging_mixin.py:109} INFO - [2022-07-20 08:03:52,214] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:03:52,234] {logging_mixin.py:109} INFO - [2022-07-20 08:03:52,233] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:03:52,248] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.582 seconds
+[2022-07-20 08:04:23,083] {processor.py:163} INFO - Started process (PID=9529) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:04:23,086] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:04:23,087] {logging_mixin.py:109} INFO - [2022-07-20 08:04:23,087] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:04:23,659] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:04:23,670] {logging_mixin.py:109} INFO - [2022-07-20 08:04:23,669] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:04:23,694] {logging_mixin.py:109} INFO - [2022-07-20 08:04:23,694] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:04:23,710] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.633 seconds
+[2022-07-20 08:04:54,443] {processor.py:163} INFO - Started process (PID=9572) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:04:54,444] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:04:54,445] {logging_mixin.py:109} INFO - [2022-07-20 08:04:54,445] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:04:54,929] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:04:54,943] {logging_mixin.py:109} INFO - [2022-07-20 08:04:54,942] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:04:54,967] {logging_mixin.py:109} INFO - [2022-07-20 08:04:54,967] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:04:54,982] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.543 seconds
+[2022-07-20 08:05:25,162] {processor.py:163} INFO - Started process (PID=9606) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:05:25,164] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:05:25,165] {logging_mixin.py:109} INFO - [2022-07-20 08:05:25,165] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:05:25,962] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:05:25,976] {logging_mixin.py:109} INFO - [2022-07-20 08:05:25,975] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:05:26,003] {logging_mixin.py:109} INFO - [2022-07-20 08:05:26,003] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:05:26,019] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.862 seconds
+[2022-07-20 08:05:56,238] {processor.py:163} INFO - Started process (PID=9638) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:05:56,240] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:05:56,241] {logging_mixin.py:109} INFO - [2022-07-20 08:05:56,241] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:05:56,820] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:05:56,830] {logging_mixin.py:109} INFO - [2022-07-20 08:05:56,830] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:05:56,851] {logging_mixin.py:109} INFO - [2022-07-20 08:05:56,851] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:05:56,866] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.633 seconds
+[2022-07-20 08:06:26,927] {processor.py:163} INFO - Started process (PID=9671) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:06:26,928] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:06:26,929] {logging_mixin.py:109} INFO - [2022-07-20 08:06:26,929] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:06:27,473] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:06:27,481] {logging_mixin.py:109} INFO - [2022-07-20 08:06:27,481] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:06:27,496] {logging_mixin.py:109} INFO - [2022-07-20 08:06:27,496] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:06:27,509] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 0.585 seconds
+[2022-07-20 08:06:58,411] {processor.py:163} INFO - Started process (PID=9704) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:06:58,416] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:06:58,417] {logging_mixin.py:109} INFO - [2022-07-20 08:06:58,417] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:06:59,534] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:06:59,585] {logging_mixin.py:109} INFO - [2022-07-20 08:06:59,584] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:06:59,769] {logging_mixin.py:109} INFO - [2022-07-20 08:06:59,769] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:06:59,835] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 1.431 seconds
+[2022-07-20 08:07:30,212] {processor.py:163} INFO - Started process (PID=9745) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:07:30,226] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:07:30,227] {logging_mixin.py:109} INFO - [2022-07-20 08:07:30,227] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:07:31,196] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:07:31,232] {logging_mixin.py:109} INFO - [2022-07-20 08:07:31,231] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:07:31,273] {logging_mixin.py:109} INFO - [2022-07-20 08:07:31,273] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:07:31,289] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 1.091 seconds
+[2022-07-20 08:08:01,677] {processor.py:163} INFO - Started process (PID=9777) to work on /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:08:01,703] {processor.py:642} INFO - Processing file /opt/airflow/dags/postgres_xcom_test.py for tasks to queue
+[2022-07-20 08:08:01,705] {logging_mixin.py:109} INFO - [2022-07-20 08:08:01,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:08:02,987] {processor.py:654} INFO - DAG(s) dict_keys(['postgres_xcom_test']) retrieved from /opt/airflow/dags/postgres_xcom_test.py
+[2022-07-20 08:08:03,001] {logging_mixin.py:109} INFO - [2022-07-20 08:08:03,000] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-20 08:08:03,022] {logging_mixin.py:109} INFO - [2022-07-20 08:08:03,021] {dag.py:2937} INFO - Setting next_dagrun for postgres_xcom_test to 2022-07-20T00:00:00+00:00
+[2022-07-20 08:08:03,091] {processor.py:171} INFO - Processing /opt/airflow/dags/postgres_xcom_test.py took 1.423 seconds
