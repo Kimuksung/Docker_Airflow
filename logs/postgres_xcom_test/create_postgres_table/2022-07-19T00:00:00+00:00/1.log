@@ -1,0 +1,116 @@
+[2022-07-20 04:45:25,899] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [queued]>
+[2022-07-20 04:45:26,010] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [queued]>
+[2022-07-20 04:45:26,010] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 04:45:26,010] {taskinstance.py:1244} INFO - Starting attempt 1 of 6
+[2022-07-20 04:45:26,010] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 04:45:26,055] {taskinstance.py:1264} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-07-19 00:00:00+00:00
+[2022-07-20 04:45:26,060] {standard_task_runner.py:52} INFO - Started process 90 to run task
+[2022-07-20 04:45:26,103] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_xcom_test', 'create_postgres_table', 'scheduled__2022-07-19T00:00:00+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/postgres_xcom_test.py', '--cfg-path', '/tmp/tmp9x3_88iy', '--error-file', '/tmp/tmp0k39yyz7']
+[2022-07-20 04:45:26,104] {standard_task_runner.py:77} INFO - Job 71: Subtask create_postgres_table
+[2022-07-20 04:45:26,319] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [running]> on host 0741836b2d3b
+[2022-07-20 04:45:26,543] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=kimuksung2
+AIRFLOW_CTX_DAG_ID=postgres_xcom_test
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-19T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-19T00:00:00+00:00
+[2022-07-20 04:45:26,579] {base.py:79} INFO - Using connection to: id: postgres_xcom_test. Host: postgres, Port: 5432, Schema: test, Login: ***, Password: ***, extra: {}
+[2022-07-20 04:45:26,591] {dbapi.py:225} INFO - Running statement: 
+            create table if not exists test_data (
+                char_list varchar
+            )
+        , parameters: None
+[2022-07-20 04:45:26,596] {postgres.py:73} INFO - NOTICE:  relation "test_data" already exists, skipping
+
+[2022-07-20 04:45:26,662] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=postgres_xcom_test, task_id=create_postgres_table, execution_date=20220719T000000, start_date=20220720T044525, end_date=20220720T044526
+[2022-07-20 04:45:26,813] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-20 04:45:27,105] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-07-20 04:47:00,165] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [queued]>
+[2022-07-20 04:47:00,184] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [queued]>
+[2022-07-20 04:47:00,184] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 04:47:00,184] {taskinstance.py:1244} INFO - Starting attempt 1 of 6
+[2022-07-20 04:47:00,184] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 04:47:00,203] {taskinstance.py:1264} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-07-19 00:00:00+00:00
+[2022-07-20 04:47:00,208] {standard_task_runner.py:52} INFO - Started process 144 to run task
+[2022-07-20 04:47:00,216] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_xcom_test', 'create_postgres_table', 'scheduled__2022-07-19T00:00:00+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/postgres_xcom_test.py', '--cfg-path', '/tmp/tmpitq5gfzt', '--error-file', '/tmp/tmpv2imlv1k']
+[2022-07-20 04:47:00,216] {standard_task_runner.py:77} INFO - Job 74: Subtask create_postgres_table
+[2022-07-20 04:47:00,328] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [running]> on host 0741836b2d3b
+[2022-07-20 04:47:00,440] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=kimuksung2
+AIRFLOW_CTX_DAG_ID=postgres_xcom_test
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-19T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-19T00:00:00+00:00
+[2022-07-20 04:47:00,464] {base.py:79} INFO - Using connection to: id: postgres_xcom_test. Host: postgres, Port: 5432, Schema: test, Login: ***, Password: ***, extra: {}
+[2022-07-20 04:47:00,477] {dbapi.py:225} INFO - Running statement: 
+            create table if not exists test_data (
+                char_list varchar
+            )
+        , parameters: None
+[2022-07-20 04:47:00,479] {postgres.py:73} INFO - NOTICE:  relation "test_data" already exists, skipping
+
+[2022-07-20 04:47:00,498] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=postgres_xcom_test, task_id=create_postgres_table, execution_date=20220719T000000, start_date=20220720T044700, end_date=20220720T044700
+[2022-07-20 04:47:00,551] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-20 04:47:00,608] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-07-20 05:00:27,770] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [queued]>
+[2022-07-20 05:00:27,791] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [queued]>
+[2022-07-20 05:00:27,792] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 05:00:27,793] {taskinstance.py:1244} INFO - Starting attempt 1 of 6
+[2022-07-20 05:00:27,793] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 05:00:27,815] {taskinstance.py:1264} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-07-19 00:00:00+00:00
+[2022-07-20 05:00:27,820] {standard_task_runner.py:52} INFO - Started process 627 to run task
+[2022-07-20 05:00:27,825] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_xcom_test', 'create_postgres_table', 'scheduled__2022-07-19T00:00:00+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/postgres_xcom_test.py', '--cfg-path', '/tmp/tmppywgb4mq', '--error-file', '/tmp/tmp96ql7e90']
+[2022-07-20 05:00:27,826] {standard_task_runner.py:77} INFO - Job 78: Subtask create_postgres_table
+[2022-07-20 05:00:27,903] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [running]> on host 0741836b2d3b
+[2022-07-20 05:00:28,031] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=kimuksung2
+AIRFLOW_CTX_DAG_ID=postgres_xcom_test
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-19T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-19T00:00:00+00:00
+[2022-07-20 05:00:28,044] {base.py:79} INFO - Using connection to: id: postgres_xcom_test. Host: postgres, Port: 5432, Schema: test, Login: ***, Password: ***, extra: {}
+[2022-07-20 05:00:28,049] {dbapi.py:225} INFO - Running statement: 
+            create table if not exists test_data (
+                char_list varchar
+            )
+        , parameters: None
+[2022-07-20 05:00:28,050] {postgres.py:73} INFO - NOTICE:  relation "test_data" already exists, skipping
+
+[2022-07-20 05:00:28,081] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=postgres_xcom_test, task_id=create_postgres_table, execution_date=20220719T000000, start_date=20220720T050027, end_date=20220720T050028
+[2022-07-20 05:00:28,120] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-20 05:00:28,166] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-07-20 05:04:12,471] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [queued]>
+[2022-07-20 05:04:12,516] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [queued]>
+[2022-07-20 05:04:12,516] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 05:04:12,516] {taskinstance.py:1244} INFO - Starting attempt 1 of 6
+[2022-07-20 05:04:12,517] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 05:04:12,561] {taskinstance.py:1264} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-07-19 00:00:00+00:00
+[2022-07-20 05:04:12,567] {standard_task_runner.py:52} INFO - Started process 771 to run task
+[2022-07-20 05:04:12,577] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_xcom_test', 'create_postgres_table', 'scheduled__2022-07-19T00:00:00+00:00', '--job-id', '81', '--raw', '--subdir', 'DAGS_FOLDER/postgres_xcom_test.py', '--cfg-path', '/tmp/tmpfc1ndytz', '--error-file', '/tmp/tmpud8r60r9']
+[2022-07-20 05:04:12,578] {standard_task_runner.py:77} INFO - Job 81: Subtask create_postgres_table
+[2022-07-20 05:04:12,677] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_xcom_test.create_postgres_table scheduled__2022-07-19T00:00:00+00:00 [running]> on host 0741836b2d3b
+[2022-07-20 05:04:12,768] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=kimuksung2
+AIRFLOW_CTX_DAG_ID=postgres_xcom_test
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-19T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-19T00:00:00+00:00
+[2022-07-20 05:04:12,785] {base.py:79} INFO - Using connection to: id: postgres_xcom_test. Host: postgres, Port: 5432, Schema: test, Login: ***, Password: ***, extra: {}
+[2022-07-20 05:04:12,795] {dbapi.py:225} INFO - Running statement: 
+            create table if not exists test_data (
+                char_list varchar
+            )
+        , parameters: None
+[2022-07-20 05:04:12,796] {postgres.py:73} INFO - NOTICE:  relation "test_data" already exists, skipping
+
+[2022-07-20 05:04:12,813] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=postgres_xcom_test, task_id=create_postgres_table, execution_date=20220719T000000, start_date=20220720T050412, end_date=20220720T050412
+[2022-07-20 05:04:12,867] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-20 05:04:12,921] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,102 @@
+[2022-07-03 09:42:03,206] {processor.py:163} INFO - Started process (PID=71) to work on /opt/airflow/dags/test.py
+[2022-07-03 09:42:03,235] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-07-03 09:42:03,236] {logging_mixin.py:109} INFO - [2022-07-03 09:42:03,236] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-07-03 09:42:03,287] {logging_mixin.py:109} INFO - [2022-07-03 09:42:03,238] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 17
+    print('fruit_name:', fruit_name)
+    ^
+IndentationError: unexpected indent
+[2022-07-03 09:42:03,490] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2022-07-03 09:42:03,605] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.446 seconds
+[2022-07-03 09:42:38,714] {processor.py:163} INFO - Started process (PID=114) to work on /opt/airflow/dags/test.py
+[2022-07-03 09:42:38,732] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-07-03 09:42:38,733] {logging_mixin.py:109} INFO - [2022-07-03 09:42:38,733] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-07-03 09:42:38,767] {logging_mixin.py:109} INFO - [2022-07-03 09:42:38,766] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 17
+    print('fruit_name:', fruit_name)
+    ^
+IndentationError: unexpected indent
+[2022-07-03 09:42:39,364] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2022-07-03 09:42:39,776] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.126 seconds
+[2022-07-03 09:43:13,640] {processor.py:163} INFO - Started process (PID=164) to work on /opt/airflow/dags/test.py
+[2022-07-03 09:43:13,654] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-07-03 09:43:13,655] {logging_mixin.py:109} INFO - [2022-07-03 09:43:13,655] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-07-03 09:43:13,688] {logging_mixin.py:109} INFO - [2022-07-03 09:43:13,687] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 17
+    print('fruit_name:', fruit_name)
+    ^
+IndentationError: unexpected indent
+[2022-07-03 09:43:14,221] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2022-07-03 09:43:14,420] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.837 seconds
+[2022-07-03 09:43:53,451] {processor.py:163} INFO - Started process (PID=212) to work on /opt/airflow/dags/test.py
+[2022-07-03 09:43:53,483] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-07-03 09:43:53,514] {logging_mixin.py:109} INFO - [2022-07-03 09:43:53,513] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-07-03 09:43:53,616] {logging_mixin.py:109} INFO - [2022-07-03 09:43:53,516] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 17
+    print('fruit_name:', fruit_name)
+    ^
+IndentationError: unexpected indent
+[2022-07-03 09:43:53,934] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2022-07-03 09:43:54,370] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.097 seconds
+[2022-07-03 09:44:25,286] {processor.py:163} INFO - Started process (PID=263) to work on /opt/airflow/dags/test.py
+[2022-07-03 09:44:25,294] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-07-03 09:44:25,295] {logging_mixin.py:109} INFO - [2022-07-03 09:44:25,295] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-07-03 09:44:25,307] {logging_mixin.py:109} INFO - [2022-07-03 09:44:25,306] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 17
+    print('fruit_name:', fruit_name)
+    ^
+IndentationError: unexpected indent
+[2022-07-03 09:44:25,386] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2022-07-03 09:44:25,438] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.170 seconds
+[2022-07-03 09:44:56,202] {processor.py:163} INFO - Started process (PID=305) to work on /opt/airflow/dags/test.py
+[2022-07-03 09:44:56,204] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-07-03 09:44:56,205] {logging_mixin.py:109} INFO - [2022-07-03 09:44:56,205] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-07-03 09:44:56,207] {logging_mixin.py:109} INFO - [2022-07-03 09:44:56,206] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 17
+    print('fruit_name:', fruit_name)
+    ^
+IndentationError: unexpected indent
+[2022-07-03 09:44:56,231] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2022-07-03 09:44:56,246] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.048 seconds

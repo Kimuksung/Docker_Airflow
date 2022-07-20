@@ -1,0 +1,52 @@
+[2022-07-19 06:51:16,889] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.insert_into_table scheduled__2022-07-18T00:00:00+00:00 [queued]>
+[2022-07-19 06:51:16,905] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.insert_into_table scheduled__2022-07-18T00:00:00+00:00 [queued]>
+[2022-07-19 06:51:16,905] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-19 06:51:16,905] {taskinstance.py:1244} INFO - Starting attempt 1 of 6
+[2022-07-19 06:51:16,905] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-19 06:51:16,924] {taskinstance.py:1264} INFO - Executing <Task(PostgresOperator): insert_into_table> on 2022-07-18 00:00:00+00:00
+[2022-07-19 06:51:16,929] {standard_task_runner.py:52} INFO - Started process 652 to run task
+[2022-07-19 06:51:16,937] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator', 'insert_into_table', 'scheduled__2022-07-18T00:00:00+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/example_postgres.py', '--cfg-path', '/tmp/tmpwa3it0pe', '--error-file', '/tmp/tmpj07wattg']
+[2022-07-19 06:51:16,943] {standard_task_runner.py:77} INFO - Job 54: Subtask insert_into_table
+[2022-07-19 06:51:17,072] {logging_mixin.py:109} INFO - Running <TaskInstance: dag_with_postgres_operator.insert_into_table scheduled__2022-07-18T00:00:00+00:00 [running]> on host 0741836b2d3b
+[2022-07-19 06:51:17,206] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=kimuksung2
+AIRFLOW_CTX_DAG_ID=dag_with_postgres_operator
+AIRFLOW_CTX_TASK_ID=insert_into_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-18T00:00:00+00:00
+[2022-07-19 06:51:17,235] {base.py:79} INFO - Using connection to: id: postgres_localhost. Host: host.docker.internal, Port: 5432, Schema: test, Login: ***, Password: ***, extra: {}
+[2022-07-19 06:51:17,284] {dbapi.py:225} INFO - Running statement: 
+            insert into dag_runs (dt, dag_id) values ('2022-07-18', 'dag_with_postgres_operator')
+        , parameters: None
+[2022-07-19 06:51:17,299] {dbapi.py:233} INFO - Rows affected: 1
+[2022-07-19 06:51:17,382] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=dag_with_postgres_operator, task_id=insert_into_table, execution_date=20220718T000000, start_date=20220719T065116, end_date=20220719T065117
+[2022-07-19 06:51:17,501] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-19 06:51:17,703] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-07-19 07:03:28,103] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.insert_into_table scheduled__2022-07-18T00:00:00+00:00 [queued]>
+[2022-07-19 07:03:28,114] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.insert_into_table scheduled__2022-07-18T00:00:00+00:00 [queued]>
+[2022-07-19 07:03:28,115] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-19 07:03:28,115] {taskinstance.py:1244} INFO - Starting attempt 1 of 6
+[2022-07-19 07:03:28,115] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-19 07:03:28,129] {taskinstance.py:1264} INFO - Executing <Task(PostgresOperator): insert_into_table> on 2022-07-18 00:00:00+00:00
+[2022-07-19 07:03:28,133] {standard_task_runner.py:52} INFO - Started process 988 to run task
+[2022-07-19 07:03:28,136] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator', 'insert_into_table', 'scheduled__2022-07-18T00:00:00+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/example_postgres.py', '--cfg-path', '/tmp/tmpz2a7jfwm', '--error-file', '/tmp/tmpguhhvq5t']
+[2022-07-19 07:03:28,137] {standard_task_runner.py:77} INFO - Job 66: Subtask insert_into_table
+[2022-07-19 07:03:28,195] {logging_mixin.py:109} INFO - Running <TaskInstance: dag_with_postgres_operator.insert_into_table scheduled__2022-07-18T00:00:00+00:00 [running]> on host 0741836b2d3b
+[2022-07-19 07:03:28,269] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=kimuksung2
+AIRFLOW_CTX_DAG_ID=dag_with_postgres_operator
+AIRFLOW_CTX_TASK_ID=insert_into_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-18T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-18T00:00:00+00:00
+[2022-07-19 07:03:28,279] {base.py:79} INFO - Using connection to: id: postgres_localhost. Host: postgres, Port: 5432, Schema: test, Login: ***, Password: ***, extra: {}
+[2022-07-19 07:03:28,284] {dbapi.py:225} INFO - Running statement: 
+            insert into dag_runs (dt, dag_id) values ('2022-07-18', 'dag_with_postgres_operator')
+        , parameters: None
+[2022-07-19 07:03:28,285] {dbapi.py:233} INFO - Rows affected: 1
+[2022-07-19 07:03:28,316] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=dag_with_postgres_operator, task_id=insert_into_table, execution_date=20220718T000000, start_date=20220719T070328, end_date=20220719T070328
+[2022-07-19 07:03:28,349] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-19 07:03:28,387] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

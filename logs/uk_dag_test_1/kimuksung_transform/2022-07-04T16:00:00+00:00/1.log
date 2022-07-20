@@ -1,0 +1,45 @@
+[2022-07-05 08:06:09,090] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.kimuksung_transform scheduled__2022-07-04T16:00:00+00:00 [queued]>
+[2022-07-05 08:06:09,164] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.kimuksung_transform scheduled__2022-07-04T16:00:00+00:00 [queued]>
+[2022-07-05 08:06:09,165] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 08:06:09,167] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-05 08:06:09,167] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 08:06:09,362] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): kimuksung_transform> on 2022-07-04 16:00:00+00:00
+[2022-07-05 08:06:09,413] {standard_task_runner.py:52} INFO - Started process 2146 to run task
+[2022-07-05 08:06:09,440] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'uk_dag_test_1', 'kimuksung_transform', 'scheduled__2022-07-04T16:00:00+00:00', '--job-id', '327', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmp02v5mp77', '--error-file', '/tmp/tmpm7i81ui4']
+[2022-07-05 08:06:09,440] {standard_task_runner.py:77} INFO - Job 327: Subtask kimuksung_transform
+[2022-07-05 08:06:09,922] {logging_mixin.py:109} INFO - Running <TaskInstance: uk_dag_test_1.kimuksung_transform scheduled__2022-07-04T16:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-05 08:06:10,333] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=uk_dag_test_1
+AIRFLOW_CTX_TASK_ID=kimuksung_transform
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-04T16:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-04T16:00:00+00:00
+[2022-07-05 08:06:10,370] {python.py:175} INFO - Done. Returned value was: test function clear
+[2022-07-05 08:06:10,480] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=uk_dag_test_1, task_id=kimuksung_transform, execution_date=20220704T160000, start_date=20220705T080609, end_date=20220705T080610
+[2022-07-05 08:06:10,590] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-05 08:06:10,783] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-05 08:11:19,421] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.kimuksung_transform scheduled__2022-07-04T16:00:00+00:00 [queued]>
+[2022-07-05 08:11:19,472] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.kimuksung_transform scheduled__2022-07-04T16:00:00+00:00 [queued]>
+[2022-07-05 08:11:19,479] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 08:11:19,479] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-05 08:11:19,480] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 08:11:19,524] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): kimuksung_transform> on 2022-07-04 16:00:00+00:00
+[2022-07-05 08:11:19,553] {standard_task_runner.py:52} INFO - Started process 2449 to run task
+[2022-07-05 08:11:19,595] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'uk_dag_test_1', 'kimuksung_transform', 'scheduled__2022-07-04T16:00:00+00:00', '--job-id', '392', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmp6j11ioz8', '--error-file', '/tmp/tmpvat2v9_a']
+[2022-07-05 08:11:19,596] {standard_task_runner.py:77} INFO - Job 392: Subtask kimuksung_transform
+[2022-07-05 08:11:20,289] {logging_mixin.py:109} INFO - Running <TaskInstance: uk_dag_test_1.kimuksung_transform scheduled__2022-07-04T16:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-05 08:11:20,994] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=uk_dag_test_1
+AIRFLOW_CTX_TASK_ID=kimuksung_transform
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-04T16:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-04T16:00:00+00:00
+[2022-07-05 08:11:21,128] {test.py:27} INFO - pubg
+[2022-07-05 08:11:21,129] {python.py:175} INFO - Done. Returned value was: True
+[2022-07-05 08:11:21,325] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=uk_dag_test_1, task_id=kimuksung_transform, execution_date=20220704T160000, start_date=20220705T081119, end_date=20220705T081121
+[2022-07-05 08:11:21,487] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-05 08:11:22,387] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

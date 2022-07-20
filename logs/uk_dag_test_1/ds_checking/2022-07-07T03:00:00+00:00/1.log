@@ -1,0 +1,94 @@
+[2022-07-07 05:06:12,549] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [queued]>
+[2022-07-07 05:06:12,580] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [queued]>
+[2022-07-07 05:06:12,580] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-07 05:06:12,580] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-07 05:06:12,580] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-07 05:06:12,725] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): ds_checking> on 2022-07-07 03:00:00+00:00
+[2022-07-07 05:06:12,770] {standard_task_runner.py:52} INFO - Started process 999 to run task
+[2022-07-07 05:06:12,796] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'uk_dag_test_1', 'ds_checking', 'scheduled__2022-07-07T03:00:00+00:00', '--job-id', '536', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpak59rn3q', '--error-file', '/tmp/tmp9rdponm9']
+[2022-07-07 05:06:12,796] {standard_task_runner.py:77} INFO - Job 536: Subtask ds_checking
+[2022-07-07 05:06:13,332] {logging_mixin.py:109} INFO - Running <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-07 05:06:13,664] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=uk_dag_test_1
+AIRFLOW_CTX_TASK_ID=ds_checking
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-07T03:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-07T03:00:00+00:00
+[2022-07-07 05:06:13,665] {test.py:21} INFO - {{ macros.ds_add(ds, 1) }}
+[2022-07-07 05:06:13,665] {python.py:175} INFO - Done. Returned value was: {{ macros.ds_add(ds, 1) }}
+[2022-07-07 05:06:13,790] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=uk_dag_test_1, task_id=ds_checking, execution_date=20220707T030000, start_date=20220707T050612, end_date=20220707T050613
+[2022-07-07 05:06:14,008] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-07 05:06:14,537] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-07 05:11:04,510] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [queued]>
+[2022-07-07 05:11:04,548] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [queued]>
+[2022-07-07 05:11:04,549] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-07 05:11:04,549] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-07 05:11:04,549] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-07 05:11:04,594] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): ds_checking> on 2022-07-07 03:00:00+00:00
+[2022-07-07 05:11:04,614] {standard_task_runner.py:52} INFO - Started process 1222 to run task
+[2022-07-07 05:11:04,628] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'uk_dag_test_1', 'ds_checking', 'scheduled__2022-07-07T03:00:00+00:00', '--job-id', '559', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmp6q475j1m', '--error-file', '/tmp/tmppqgv0cai']
+[2022-07-07 05:11:04,639] {standard_task_runner.py:77} INFO - Job 559: Subtask ds_checking
+[2022-07-07 05:11:04,962] {logging_mixin.py:109} INFO - Running <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-07 05:11:05,402] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=uk_dag_test_1
+AIRFLOW_CTX_TASK_ID=ds_checking
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-07T03:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-07T03:00:00+00:00
+[2022-07-07 05:11:05,403] {logging_mixin.py:109} INFO - 2022-07-07
+[2022-07-07 05:11:05,403] {python.py:175} INFO - Done. Returned value was: 2022-07-07
+[2022-07-07 05:11:05,649] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=uk_dag_test_1, task_id=ds_checking, execution_date=20220707T030000, start_date=20220707T051104, end_date=20220707T051105
+[2022-07-07 05:11:05,826] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-07 05:11:06,255] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-07 05:12:56,882] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [queued]>
+[2022-07-07 05:12:56,929] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [queued]>
+[2022-07-07 05:12:56,929] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-07 05:12:56,929] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-07 05:12:56,929] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-07 05:12:56,964] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): ds_checking> on 2022-07-07 03:00:00+00:00
+[2022-07-07 05:12:56,969] {standard_task_runner.py:52} INFO - Started process 1325 to run task
+[2022-07-07 05:12:56,983] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'uk_dag_test_1', 'ds_checking', 'scheduled__2022-07-07T03:00:00+00:00', '--job-id', '573', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpsif1hvvg', '--error-file', '/tmp/tmp0vtvcjmt']
+[2022-07-07 05:12:56,984] {standard_task_runner.py:77} INFO - Job 573: Subtask ds_checking
+[2022-07-07 05:12:57,261] {logging_mixin.py:109} INFO - Running <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-07 05:12:57,410] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=uk_dag_test_1
+AIRFLOW_CTX_TASK_ID=ds_checking
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-07T03:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-07T03:00:00+00:00
+[2022-07-07 05:12:57,411] {logging_mixin.py:109} INFO - start ds_check function
+[2022-07-07 05:12:57,411] {test.py:21} INFO - 2022-07-07
+[2022-07-07 05:12:57,411] {python.py:175} INFO - Done. Returned value was: 2022-07-07
+[2022-07-07 05:12:57,498] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=uk_dag_test_1, task_id=ds_checking, execution_date=20220707T030000, start_date=20220707T051256, end_date=20220707T051257
+[2022-07-07 05:12:57,549] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-07 05:12:57,601] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-07 05:16:11,636] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [queued]>
+[2022-07-07 05:16:11,754] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [queued]>
+[2022-07-07 05:16:11,754] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-07 05:16:11,754] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-07 05:16:11,754] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-07 05:16:11,917] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): ds_checking> on 2022-07-07 03:00:00+00:00
+[2022-07-07 05:16:12,021] {standard_task_runner.py:52} INFO - Started process 1474 to run task
+[2022-07-07 05:16:12,067] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'uk_dag_test_1', 'ds_checking', 'scheduled__2022-07-07T03:00:00+00:00', '--job-id', '588', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpxtcdhiz0', '--error-file', '/tmp/tmp_9yrveh2']
+[2022-07-07 05:16:12,068] {standard_task_runner.py:77} INFO - Job 588: Subtask ds_checking
+[2022-07-07 05:16:12,878] {logging_mixin.py:109} INFO - Running <TaskInstance: uk_dag_test_1.ds_checking scheduled__2022-07-07T03:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-07 05:16:13,995] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=uk_dag_test_1
+AIRFLOW_CTX_TASK_ID=ds_checking
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-07T03:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-07T03:00:00+00:00
+[2022-07-07 05:16:13,997] {logging_mixin.py:109} INFO - start ds_check function
+[2022-07-07 05:16:13,997] {test.py:21} INFO - 2022-07-07T03:00:00+00:00
+[2022-07-07 05:16:13,997] {python.py:175} INFO - Done. Returned value was: 2022-07-07T03:00:00+00:00
+[2022-07-07 05:16:14,348] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=uk_dag_test_1, task_id=ds_checking, execution_date=20220707T030000, start_date=20220707T051611, end_date=20220707T051614
+[2022-07-07 05:16:14,494] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-07 05:16:14,811] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

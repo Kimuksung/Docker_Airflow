@@ -1,0 +1,92 @@
+[2022-07-08 07:00:00,556] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: upbit_bitcoin.airflow_runtime_set scheduled__2022-07-08T06:00:00+00:00 [queued]>
+[2022-07-08 07:00:00,569] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: upbit_bitcoin.airflow_runtime_set scheduled__2022-07-08T06:00:00+00:00 [queued]>
+[2022-07-08 07:00:00,569] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 07:00:00,569] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-08 07:00:00,569] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 07:00:00,586] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): airflow_runtime_set> on 2022-07-08 06:00:00+00:00
+[2022-07-08 07:00:00,590] {standard_task_runner.py:52} INFO - Started process 1416 to run task
+[2022-07-08 07:00:00,594] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'upbit_bitcoin', '***_runtime_set', 'scheduled__2022-07-08T06:00:00+00:00', '--job-id', '798', '--raw', '--subdir', 'DAGS_FOLDER/upbit_bitcoin.py', '--cfg-path', '/tmp/tmpl7mm7bs8', '--error-file', '/tmp/tmp3y3xci59']
+[2022-07-08 07:00:00,594] {standard_task_runner.py:77} INFO - Job 798: Subtask ***_runtime_set
+[2022-07-08 07:00:00,660] {logging_mixin.py:109} INFO - Running <TaskInstance: upbit_bitcoin.***_runtime_set scheduled__2022-07-08T06:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-08 07:00:00,805] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=upbit_bitcoin
+AIRFLOW_CTX_TASK_ID=***_runtime_set
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-08T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-08T06:00:00+00:00
+[2022-07-08 07:00:00,814] {upbit_bitcoin.py:25} INFO - 2022-07-08T15:00:00
+[2022-07-08 07:00:00,814] {python.py:175} INFO - Done. Returned value was: 2022-07-08T15:00:00
+[2022-07-08 07:00:00,852] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=upbit_bitcoin, task_id=***_runtime_set, execution_date=20220708T060000, start_date=20220708T070000, end_date=20220708T070000
+[2022-07-08 07:00:00,887] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-08 07:00:00,933] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-07-08 07:26:40,917] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: upbit_bitcoin.airflow_runtime_set scheduled__2022-07-08T06:00:00+00:00 [queued]>
+[2022-07-08 07:26:40,933] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: upbit_bitcoin.airflow_runtime_set scheduled__2022-07-08T06:00:00+00:00 [queued]>
+[2022-07-08 07:26:40,933] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 07:26:40,933] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-08 07:26:40,933] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 07:26:40,953] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): airflow_runtime_set> on 2022-07-08 06:00:00+00:00
+[2022-07-08 07:26:40,958] {standard_task_runner.py:52} INFO - Started process 2448 to run task
+[2022-07-08 07:26:40,962] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'upbit_bitcoin', '***_runtime_set', 'scheduled__2022-07-08T06:00:00+00:00', '--job-id', '804', '--raw', '--subdir', 'DAGS_FOLDER/upbit_bitcoin.py', '--cfg-path', '/tmp/tmp665g7_0t', '--error-file', '/tmp/tmpquey931a']
+[2022-07-08 07:26:40,963] {standard_task_runner.py:77} INFO - Job 804: Subtask ***_runtime_set
+[2022-07-08 07:26:41,038] {logging_mixin.py:109} INFO - Running <TaskInstance: upbit_bitcoin.***_runtime_set scheduled__2022-07-08T06:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-08 07:26:41,114] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=upbit_bitcoin
+AIRFLOW_CTX_TASK_ID=***_runtime_set
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-08T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-08T06:00:00+00:00
+[2022-07-08 07:26:41,125] {upbit_bitcoin.py:26} INFO - 2022-07-08T15:00:00
+[2022-07-08 07:26:41,125] {python.py:175} INFO - Done. Returned value was: 2022-07-08T15:00:00
+[2022-07-08 07:26:41,154] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=upbit_bitcoin, task_id=***_runtime_set, execution_date=20220708T060000, start_date=20220708T072640, end_date=20220708T072641
+[2022-07-08 07:26:41,214] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-08 07:26:41,261] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-07-08 07:28:16,189] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: upbit_bitcoin.airflow_runtime_set scheduled__2022-07-08T06:00:00+00:00 [queued]>
+[2022-07-08 07:28:16,213] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: upbit_bitcoin.airflow_runtime_set scheduled__2022-07-08T06:00:00+00:00 [queued]>
+[2022-07-08 07:28:16,214] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 07:28:16,214] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-08 07:28:16,214] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 07:28:16,252] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): airflow_runtime_set> on 2022-07-08 06:00:00+00:00
+[2022-07-08 07:28:16,269] {standard_task_runner.py:52} INFO - Started process 2519 to run task
+[2022-07-08 07:28:16,274] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'upbit_bitcoin', '***_runtime_set', 'scheduled__2022-07-08T06:00:00+00:00', '--job-id', '811', '--raw', '--subdir', 'DAGS_FOLDER/upbit_bitcoin.py', '--cfg-path', '/tmp/tmpix34y38h', '--error-file', '/tmp/tmpioxbwbao']
+[2022-07-08 07:28:16,275] {standard_task_runner.py:77} INFO - Job 811: Subtask ***_runtime_set
+[2022-07-08 07:28:16,403] {logging_mixin.py:109} INFO - Running <TaskInstance: upbit_bitcoin.***_runtime_set scheduled__2022-07-08T06:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-08 07:28:16,551] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=upbit_bitcoin
+AIRFLOW_CTX_TASK_ID=***_runtime_set
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-08T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-08T06:00:00+00:00
+[2022-07-08 07:28:16,562] {upbit_bitcoin.py:26} INFO - 2022-07-08T15:00:00
+[2022-07-08 07:28:16,562] {python.py:175} INFO - Done. Returned value was: 2022-07-08T15:00:00
+[2022-07-08 07:28:16,624] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=upbit_bitcoin, task_id=***_runtime_set, execution_date=20220708T060000, start_date=20220708T072816, end_date=20220708T072816
+[2022-07-08 07:28:16,701] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-08 07:28:16,771] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-08 07:32:42,426] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: upbit_bitcoin.airflow_runtime_set scheduled__2022-07-08T06:00:00+00:00 [queued]>
+[2022-07-08 07:32:42,447] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: upbit_bitcoin.airflow_runtime_set scheduled__2022-07-08T06:00:00+00:00 [queued]>
+[2022-07-08 07:32:42,448] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 07:32:42,448] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-08 07:32:42,448] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 07:32:42,474] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): airflow_runtime_set> on 2022-07-08 06:00:00+00:00
+[2022-07-08 07:32:42,483] {standard_task_runner.py:52} INFO - Started process 2694 to run task
+[2022-07-08 07:32:42,488] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'upbit_bitcoin', '***_runtime_set', 'scheduled__2022-07-08T06:00:00+00:00', '--job-id', '816', '--raw', '--subdir', 'DAGS_FOLDER/upbit_bitcoin.py', '--cfg-path', '/tmp/tmpajm5mi2x', '--error-file', '/tmp/tmpf4r0iwc3']
+[2022-07-08 07:32:42,489] {standard_task_runner.py:77} INFO - Job 816: Subtask ***_runtime_set
+[2022-07-08 07:32:42,592] {logging_mixin.py:109} INFO - Running <TaskInstance: upbit_bitcoin.***_runtime_set scheduled__2022-07-08T06:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-08 07:32:42,697] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=upbit_bitcoin
+AIRFLOW_CTX_TASK_ID=***_runtime_set
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-08T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-08T06:00:00+00:00
+[2022-07-08 07:32:42,708] {upbit_bitcoin.py:26} INFO - 2022-07-08T15:00:00
+[2022-07-08 07:32:42,709] {python.py:175} INFO - Done. Returned value was: 2022-07-08T15:00:00
+[2022-07-08 07:32:42,747] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=upbit_bitcoin, task_id=***_runtime_set, execution_date=20220708T060000, start_date=20220708T073242, end_date=20220708T073242
+[2022-07-08 07:32:42,822] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-08 07:32:42,942] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

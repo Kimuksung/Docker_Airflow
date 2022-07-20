@@ -1,0 +1,22 @@
+[2022-07-20 06:11:11,760] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_xcom_test.get_data scheduled__2022-07-19T00:00:00+00:00 [queued]>
+[2022-07-20 06:11:11,781] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: postgres_xcom_test.get_data scheduled__2022-07-19T00:00:00+00:00 [queued]>
+[2022-07-20 06:11:11,781] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 06:11:11,781] {taskinstance.py:1244} INFO - Starting attempt 5 of 10
+[2022-07-20 06:11:11,781] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 06:11:11,816] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): get_data> on 2022-07-19 00:00:00+00:00
+[2022-07-20 06:11:11,821] {standard_task_runner.py:52} INFO - Started process 1473 to run task
+[2022-07-20 06:11:11,837] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_xcom_test', 'get_data', 'scheduled__2022-07-19T00:00:00+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/postgres_xcom_test.py', '--cfg-path', '/tmp/tmp7gux07bt', '--error-file', '/tmp/tmpxbjura23']
+[2022-07-20 06:11:11,838] {standard_task_runner.py:77} INFO - Job 114: Subtask get_data
+[2022-07-20 06:11:11,946] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_xcom_test.get_data scheduled__2022-07-19T00:00:00+00:00 [running]> on host 0741836b2d3b
+[2022-07-20 06:11:12,055] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=kimuksung2
+AIRFLOW_CTX_DAG_ID=postgres_xcom_test
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-19T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-19T00:00:00+00:00
+[2022-07-20 06:11:12,056] {python.py:175} INFO - Done. Returned value was: [{'time': '2022-07-18 23:59:00'}]
+[2022-07-20 06:11:12,095] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=postgres_xcom_test, task_id=get_data, execution_date=20220719T000000, start_date=20220720T061111, end_date=20220720T061112
+[2022-07-20 06:11:12,123] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-20 06:11:12,191] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

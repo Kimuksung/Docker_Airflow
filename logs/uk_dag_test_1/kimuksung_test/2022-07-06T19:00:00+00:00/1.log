@@ -1,0 +1,24 @@
+[2022-07-07 04:18:02,853] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.kimuksung_test scheduled__2022-07-06T19:00:00+00:00 [queued]>
+[2022-07-07 04:18:04,165] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: uk_dag_test_1.kimuksung_test scheduled__2022-07-06T19:00:00+00:00 [queued]>
+[2022-07-07 04:18:04,166] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-07 04:18:04,166] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-07-07 04:18:04,166] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-07 04:18:04,723] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): kimuksung_test> on 2022-07-06 19:00:00+00:00
+[2022-07-07 04:18:04,788] {standard_task_runner.py:52} INFO - Started process 137 to run task
+[2022-07-07 04:18:05,177] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'uk_dag_test_1', 'kimuksung_test', 'scheduled__2022-07-06T19:00:00+00:00', '--job-id', '488', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmp_f22d2a5', '--error-file', '/tmp/tmpczlmxb73']
+[2022-07-07 04:18:05,209] {standard_task_runner.py:77} INFO - Job 488: Subtask kimuksung_test
+[2022-07-07 04:18:08,498] {logging_mixin.py:109} INFO - Running <TaskInstance: uk_dag_test_1.kimuksung_test scheduled__2022-07-06T19:00:00+00:00 [running]> on host 9514ca4c721b
+[2022-07-07 04:18:10,786] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=uk_dag_test_1
+AIRFLOW_CTX_TASK_ID=kimuksung_test
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-06T19:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-06T19:00:00+00:00
+[2022-07-07 04:18:10,788] {logging_mixin.py:109} INFO - test function start
+[2022-07-07 04:18:10,803] {test.py:22} INFO - pubg
+[2022-07-07 04:18:10,803] {python.py:175} INFO - Done. Returned value was: pubg
+[2022-07-07 04:18:12,802] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=uk_dag_test_1, task_id=kimuksung_test, execution_date=20220706T190000, start_date=20220707T041802, end_date=20220707T041812
+[2022-07-07 04:18:13,063] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-07 04:18:13,770] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

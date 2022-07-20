@@ -1,0 +1,448 @@
+[2022-07-11 05:55:12,731] {processor.py:163} INFO - Started process (PID=78) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:55:12,733] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 05:55:12,734] {logging_mixin.py:109} INFO - [2022-07-11 05:55:12,734] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:55:13,132] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:55:13,188] {logging_mixin.py:109} INFO - [2022-07-11 05:55:13,188] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 05:55:13,261] {logging_mixin.py:109} INFO - [2022-07-11 05:55:13,261] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 05:55:13,327] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.622 seconds
+[2022-07-11 05:55:43,755] {processor.py:163} INFO - Started process (PID=91) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:55:43,757] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 05:55:43,759] {logging_mixin.py:109} INFO - [2022-07-11 05:55:43,758] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:55:43,872] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:55:43,900] {logging_mixin.py:109} INFO - [2022-07-11 05:55:43,900] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 05:55:43,947] {logging_mixin.py:109} INFO - [2022-07-11 05:55:43,947] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 05:55:43,966] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.222 seconds
+[2022-07-11 05:56:14,494] {processor.py:163} INFO - Started process (PID=113) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:56:14,522] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 05:56:14,524] {logging_mixin.py:109} INFO - [2022-07-11 05:56:14,523] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:56:14,977] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:56:15,078] {logging_mixin.py:109} INFO - [2022-07-11 05:56:15,078] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 05:56:15,303] {logging_mixin.py:109} INFO - [2022-07-11 05:56:15,302] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 05:56:15,457] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.984 seconds
+[2022-07-11 05:56:45,869] {processor.py:163} INFO - Started process (PID=124) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:56:45,871] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 05:56:45,874] {logging_mixin.py:109} INFO - [2022-07-11 05:56:45,874] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:56:45,937] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:56:45,954] {logging_mixin.py:109} INFO - [2022-07-11 05:56:45,954] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 05:56:45,990] {logging_mixin.py:109} INFO - [2022-07-11 05:56:45,990] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 05:56:46,015] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.161 seconds
+[2022-07-11 05:57:16,364] {processor.py:163} INFO - Started process (PID=145) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:57:16,375] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 05:57:16,378] {logging_mixin.py:109} INFO - [2022-07-11 05:57:16,378] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:57:16,573] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:57:16,627] {logging_mixin.py:109} INFO - [2022-07-11 05:57:16,626] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 05:57:16,692] {logging_mixin.py:109} INFO - [2022-07-11 05:57:16,691] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 05:57:16,708] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.366 seconds
+[2022-07-11 05:57:46,999] {processor.py:163} INFO - Started process (PID=165) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:57:47,000] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 05:57:47,001] {logging_mixin.py:109} INFO - [2022-07-11 05:57:47,001] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:57:47,063] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:57:47,079] {logging_mixin.py:109} INFO - [2022-07-11 05:57:47,079] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 05:57:47,116] {logging_mixin.py:109} INFO - [2022-07-11 05:57:47,115] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 05:57:47,156] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.162 seconds
+[2022-07-11 05:58:17,330] {processor.py:163} INFO - Started process (PID=186) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:58:17,337] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 05:58:17,338] {logging_mixin.py:109} INFO - [2022-07-11 05:58:17,338] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:58:17,420] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:58:17,443] {logging_mixin.py:109} INFO - [2022-07-11 05:58:17,443] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 05:58:17,477] {logging_mixin.py:109} INFO - [2022-07-11 05:58:17,477] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 05:58:17,495] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.170 seconds
+[2022-07-11 05:58:47,763] {processor.py:163} INFO - Started process (PID=207) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:58:47,766] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 05:58:47,767] {logging_mixin.py:109} INFO - [2022-07-11 05:58:47,767] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:58:47,826] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:58:47,842] {logging_mixin.py:109} INFO - [2022-07-11 05:58:47,842] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 05:58:47,868] {logging_mixin.py:109} INFO - [2022-07-11 05:58:47,868] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 05:58:47,883] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.130 seconds
+[2022-07-11 05:59:18,054] {processor.py:163} INFO - Started process (PID=228) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:59:18,056] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 05:59:18,057] {logging_mixin.py:109} INFO - [2022-07-11 05:59:18,056] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:59:18,109] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:59:18,125] {logging_mixin.py:109} INFO - [2022-07-11 05:59:18,125] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 05:59:18,157] {logging_mixin.py:109} INFO - [2022-07-11 05:59:18,157] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 05:59:18,177] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.128 seconds
+[2022-07-11 05:59:48,381] {processor.py:163} INFO - Started process (PID=248) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:59:48,382] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 05:59:48,383] {logging_mixin.py:109} INFO - [2022-07-11 05:59:48,383] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:59:48,437] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 05:59:48,454] {logging_mixin.py:109} INFO - [2022-07-11 05:59:48,454] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 05:59:48,486] {logging_mixin.py:109} INFO - [2022-07-11 05:59:48,485] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 05:59:48,503] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.127 seconds
+[2022-07-11 06:00:18,804] {processor.py:163} INFO - Started process (PID=269) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:00:18,812] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:00:18,816] {logging_mixin.py:109} INFO - [2022-07-11 06:00:18,815] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:00:18,995] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:00:19,046] {logging_mixin.py:109} INFO - [2022-07-11 06:00:19,045] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:00:19,133] {logging_mixin.py:109} INFO - [2022-07-11 06:00:19,133] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:00:19,168] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.385 seconds
+[2022-07-11 06:00:49,503] {processor.py:163} INFO - Started process (PID=289) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:00:49,511] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:00:49,516] {logging_mixin.py:109} INFO - [2022-07-11 06:00:49,515] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:00:49,571] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:00:49,584] {logging_mixin.py:109} INFO - [2022-07-11 06:00:49,584] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:00:49,614] {logging_mixin.py:109} INFO - [2022-07-11 06:00:49,614] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:00:49,644] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.182 seconds
+[2022-07-11 06:01:19,909] {processor.py:163} INFO - Started process (PID=309) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:01:19,914] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:01:19,915] {logging_mixin.py:109} INFO - [2022-07-11 06:01:19,915] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:01:20,004] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:01:20,023] {logging_mixin.py:109} INFO - [2022-07-11 06:01:20,023] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:01:20,055] {logging_mixin.py:109} INFO - [2022-07-11 06:01:20,055] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:01:20,069] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.166 seconds
+[2022-07-11 06:01:50,134] {processor.py:163} INFO - Started process (PID=329) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:01:50,136] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:01:50,137] {logging_mixin.py:109} INFO - [2022-07-11 06:01:50,136] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:01:50,191] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:01:50,208] {logging_mixin.py:109} INFO - [2022-07-11 06:01:50,208] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:01:50,240] {logging_mixin.py:109} INFO - [2022-07-11 06:01:50,240] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:01:50,252] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.123 seconds
+[2022-07-11 06:02:20,485] {processor.py:163} INFO - Started process (PID=349) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:02:20,489] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:02:20,491] {logging_mixin.py:109} INFO - [2022-07-11 06:02:20,490] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:02:20,547] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:02:20,565] {logging_mixin.py:109} INFO - [2022-07-11 06:02:20,565] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:02:20,595] {logging_mixin.py:109} INFO - [2022-07-11 06:02:20,595] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:02:20,613] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.137 seconds
+[2022-07-11 06:02:50,809] {processor.py:163} INFO - Started process (PID=369) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:02:50,811] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:02:50,812] {logging_mixin.py:109} INFO - [2022-07-11 06:02:50,812] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:02:50,873] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:02:50,892] {logging_mixin.py:109} INFO - [2022-07-11 06:02:50,891] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:02:50,929] {logging_mixin.py:109} INFO - [2022-07-11 06:02:50,929] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:02:50,947] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.144 seconds
+[2022-07-11 06:03:21,175] {processor.py:163} INFO - Started process (PID=389) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:03:21,179] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:03:21,181] {logging_mixin.py:109} INFO - [2022-07-11 06:03:21,181] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:03:21,304] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:03:21,339] {logging_mixin.py:109} INFO - [2022-07-11 06:03:21,339] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:03:21,414] {logging_mixin.py:109} INFO - [2022-07-11 06:03:21,413] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:03:21,450] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.288 seconds
+[2022-07-11 06:03:51,647] {processor.py:163} INFO - Started process (PID=410) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:03:51,649] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:03:51,651] {logging_mixin.py:109} INFO - [2022-07-11 06:03:51,650] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:03:51,701] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:03:51,726] {logging_mixin.py:109} INFO - [2022-07-11 06:03:51,726] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:03:51,759] {logging_mixin.py:109} INFO - [2022-07-11 06:03:51,759] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:03:51,773] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.134 seconds
+[2022-07-11 06:04:22,027] {processor.py:163} INFO - Started process (PID=431) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:04:22,033] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:04:22,037] {logging_mixin.py:109} INFO - [2022-07-11 06:04:22,036] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:04:22,173] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:04:22,191] {logging_mixin.py:109} INFO - [2022-07-11 06:04:22,190] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:04:22,230] {logging_mixin.py:109} INFO - [2022-07-11 06:04:22,230] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:04:22,245] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.234 seconds
+[2022-07-11 06:04:52,467] {processor.py:163} INFO - Started process (PID=453) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:04:52,481] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:04:52,484] {logging_mixin.py:109} INFO - [2022-07-11 06:04:52,483] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:04:52,580] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:04:52,596] {logging_mixin.py:109} INFO - [2022-07-11 06:04:52,596] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:04:52,621] {logging_mixin.py:109} INFO - [2022-07-11 06:04:52,621] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:04:52,636] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.183 seconds
+[2022-07-11 06:05:22,879] {processor.py:163} INFO - Started process (PID=481) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:05:22,880] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:05:22,881] {logging_mixin.py:109} INFO - [2022-07-11 06:05:22,881] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:05:22,935] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:05:22,948] {logging_mixin.py:109} INFO - [2022-07-11 06:05:22,948] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:05:22,975] {logging_mixin.py:109} INFO - [2022-07-11 06:05:22,975] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:05:22,989] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.115 seconds
+[2022-07-11 06:05:53,279] {processor.py:163} INFO - Started process (PID=500) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:05:53,281] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:05:53,283] {logging_mixin.py:109} INFO - [2022-07-11 06:05:53,282] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:05:53,387] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:05:53,409] {logging_mixin.py:109} INFO - [2022-07-11 06:05:53,409] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:05:53,457] {logging_mixin.py:109} INFO - [2022-07-11 06:05:53,457] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:05:53,480] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.206 seconds
+[2022-07-11 06:06:23,742] {processor.py:163} INFO - Started process (PID=521) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:06:23,745] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:06:23,748] {logging_mixin.py:109} INFO - [2022-07-11 06:06:23,747] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:06:23,888] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:06:23,915] {logging_mixin.py:109} INFO - [2022-07-11 06:06:23,915] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:06:23,960] {logging_mixin.py:109} INFO - [2022-07-11 06:06:23,959] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:06:23,977] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.252 seconds
+[2022-07-11 06:06:54,220] {processor.py:163} INFO - Started process (PID=540) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:06:54,224] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:06:54,226] {logging_mixin.py:109} INFO - [2022-07-11 06:06:54,226] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:06:54,281] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:06:54,294] {logging_mixin.py:109} INFO - [2022-07-11 06:06:54,294] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:06:54,320] {logging_mixin.py:109} INFO - [2022-07-11 06:06:54,319] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:06:54,340] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.132 seconds
+[2022-07-11 06:07:24,568] {processor.py:163} INFO - Started process (PID=560) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:07:24,571] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:07:24,573] {logging_mixin.py:109} INFO - [2022-07-11 06:07:24,573] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:07:24,706] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:07:24,738] {logging_mixin.py:109} INFO - [2022-07-11 06:07:24,738] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:07:24,803] {logging_mixin.py:109} INFO - [2022-07-11 06:07:24,803] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:07:24,842] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.286 seconds
+[2022-07-11 06:07:55,007] {processor.py:163} INFO - Started process (PID=580) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:07:55,011] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:07:55,014] {logging_mixin.py:109} INFO - [2022-07-11 06:07:55,013] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:07:55,072] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:07:55,084] {logging_mixin.py:109} INFO - [2022-07-11 06:07:55,083] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:07:55,122] {logging_mixin.py:109} INFO - [2022-07-11 06:07:55,121] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:07:55,142] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.143 seconds
+[2022-07-11 06:08:25,442] {processor.py:163} INFO - Started process (PID=599) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:08:25,446] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:08:25,448] {logging_mixin.py:109} INFO - [2022-07-11 06:08:25,448] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:08:25,555] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:08:25,582] {logging_mixin.py:109} INFO - [2022-07-11 06:08:25,582] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:08:25,632] {logging_mixin.py:109} INFO - [2022-07-11 06:08:25,631] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:08:25,658] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.228 seconds
+[2022-07-11 06:08:55,865] {processor.py:163} INFO - Started process (PID=620) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:08:55,872] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:08:55,875] {logging_mixin.py:109} INFO - [2022-07-11 06:08:55,875] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:08:56,052] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:08:56,070] {logging_mixin.py:109} INFO - [2022-07-11 06:08:56,070] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:08:56,097] {logging_mixin.py:109} INFO - [2022-07-11 06:08:56,096] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:08:56,110] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.257 seconds
+[2022-07-11 06:09:26,255] {processor.py:163} INFO - Started process (PID=649) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:09:26,257] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:09:26,259] {logging_mixin.py:109} INFO - [2022-07-11 06:09:26,258] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:09:26,331] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:09:26,347] {logging_mixin.py:109} INFO - [2022-07-11 06:09:26,347] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:09:26,379] {logging_mixin.py:109} INFO - [2022-07-11 06:09:26,379] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:09:26,395] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.146 seconds
+[2022-07-11 06:09:56,435] {processor.py:163} INFO - Started process (PID=672) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:09:56,438] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:09:56,439] {logging_mixin.py:109} INFO - [2022-07-11 06:09:56,439] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:09:56,493] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:09:56,508] {logging_mixin.py:109} INFO - [2022-07-11 06:09:56,508] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:09:56,539] {logging_mixin.py:109} INFO - [2022-07-11 06:09:56,539] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:09:56,560] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.130 seconds
+[2022-07-11 06:10:26,799] {processor.py:163} INFO - Started process (PID=693) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:10:26,801] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:10:26,802] {logging_mixin.py:109} INFO - [2022-07-11 06:10:26,802] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:10:26,897] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:10:26,916] {logging_mixin.py:109} INFO - [2022-07-11 06:10:26,916] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:10:26,953] {logging_mixin.py:109} INFO - [2022-07-11 06:10:26,953] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:10:26,986] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.190 seconds
+[2022-07-11 06:10:57,298] {processor.py:163} INFO - Started process (PID=714) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:10:57,316] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:10:57,317] {logging_mixin.py:109} INFO - [2022-07-11 06:10:57,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:10:57,432] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:10:57,461] {logging_mixin.py:109} INFO - [2022-07-11 06:10:57,461] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:10:57,526] {logging_mixin.py:109} INFO - [2022-07-11 06:10:57,525] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:10:57,574] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.312 seconds
+[2022-07-11 06:11:27,890] {processor.py:163} INFO - Started process (PID=733) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:11:27,892] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:11:27,893] {logging_mixin.py:109} INFO - [2022-07-11 06:11:27,893] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:11:28,015] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:11:28,031] {logging_mixin.py:109} INFO - [2022-07-11 06:11:28,031] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:11:28,097] {logging_mixin.py:109} INFO - [2022-07-11 06:11:28,096] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:11:28,135] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.252 seconds
+[2022-07-11 06:11:58,427] {processor.py:163} INFO - Started process (PID=754) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:11:58,441] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:11:58,442] {logging_mixin.py:109} INFO - [2022-07-11 06:11:58,442] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:11:58,535] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:11:58,571] {logging_mixin.py:109} INFO - [2022-07-11 06:11:58,571] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:11:58,654] {logging_mixin.py:109} INFO - [2022-07-11 06:11:58,654] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:11:58,711] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.289 seconds
+[2022-07-11 06:29:16,572] {processor.py:163} INFO - Started process (PID=49) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:29:16,602] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:29:16,603] {logging_mixin.py:109} INFO - [2022-07-11 06:29:16,603] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:29:16,762] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:29:16,790] {logging_mixin.py:109} INFO - [2022-07-11 06:29:16,790] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:29:16,856] {logging_mixin.py:109} INFO - [2022-07-11 06:29:16,856] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:29:16,887] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.321 seconds
+[2022-07-11 06:29:46,958] {processor.py:163} INFO - Started process (PID=72) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:29:46,960] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:29:46,961] {logging_mixin.py:109} INFO - [2022-07-11 06:29:46,961] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:29:47,013] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:29:47,037] {logging_mixin.py:109} INFO - [2022-07-11 06:29:47,037] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:29:47,085] {logging_mixin.py:109} INFO - [2022-07-11 06:29:47,085] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:29:47,100] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.147 seconds
+[2022-07-11 06:30:17,379] {processor.py:163} INFO - Started process (PID=97) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:30:17,388] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:30:17,394] {logging_mixin.py:109} INFO - [2022-07-11 06:30:17,394] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:30:17,490] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:30:17,525] {logging_mixin.py:109} INFO - [2022-07-11 06:30:17,525] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:30:17,580] {logging_mixin.py:109} INFO - [2022-07-11 06:30:17,580] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:30:17,607] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.240 seconds
+[2022-07-11 06:30:47,713] {processor.py:163} INFO - Started process (PID=121) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:30:47,727] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:30:47,728] {logging_mixin.py:109} INFO - [2022-07-11 06:30:47,728] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:30:47,797] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:30:47,813] {logging_mixin.py:109} INFO - [2022-07-11 06:30:47,813] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:30:47,847] {logging_mixin.py:109} INFO - [2022-07-11 06:30:47,846] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:30:47,861] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.154 seconds
+[2022-07-11 06:31:18,142] {processor.py:163} INFO - Started process (PID=145) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:31:18,144] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:31:18,146] {logging_mixin.py:109} INFO - [2022-07-11 06:31:18,145] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:31:18,202] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:31:18,222] {logging_mixin.py:109} INFO - [2022-07-11 06:31:18,221] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:31:18,253] {logging_mixin.py:109} INFO - [2022-07-11 06:31:18,253] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:31:18,268] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.133 seconds
+[2022-07-11 06:31:48,445] {processor.py:163} INFO - Started process (PID=170) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:31:48,447] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:31:48,448] {logging_mixin.py:109} INFO - [2022-07-11 06:31:48,448] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:31:48,501] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:31:48,514] {logging_mixin.py:109} INFO - [2022-07-11 06:31:48,514] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:31:48,548] {logging_mixin.py:109} INFO - [2022-07-11 06:31:48,547] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:31:48,563] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.124 seconds
+[2022-07-11 06:32:18,763] {processor.py:163} INFO - Started process (PID=194) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:32:18,773] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:32:18,775] {logging_mixin.py:109} INFO - [2022-07-11 06:32:18,775] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:32:18,838] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:32:18,857] {logging_mixin.py:109} INFO - [2022-07-11 06:32:18,857] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:32:18,886] {logging_mixin.py:109} INFO - [2022-07-11 06:32:18,885] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:32:18,901] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.144 seconds
+[2022-07-11 06:32:49,167] {processor.py:163} INFO - Started process (PID=218) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:32:49,170] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:32:49,171] {logging_mixin.py:109} INFO - [2022-07-11 06:32:49,171] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:32:49,230] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:32:49,247] {logging_mixin.py:109} INFO - [2022-07-11 06:32:49,247] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:32:49,275] {logging_mixin.py:109} INFO - [2022-07-11 06:32:49,275] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:32:49,291] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.133 seconds
+[2022-07-11 06:33:19,484] {processor.py:163} INFO - Started process (PID=241) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:33:19,487] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:33:19,488] {logging_mixin.py:109} INFO - [2022-07-11 06:33:19,488] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:33:19,554] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:33:19,569] {logging_mixin.py:109} INFO - [2022-07-11 06:33:19,569] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:33:19,597] {logging_mixin.py:109} INFO - [2022-07-11 06:33:19,596] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:33:19,614] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.134 seconds
+[2022-07-11 06:33:49,963] {processor.py:163} INFO - Started process (PID=265) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:33:49,969] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:33:49,973] {logging_mixin.py:109} INFO - [2022-07-11 06:33:49,972] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:33:50,114] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:33:50,134] {logging_mixin.py:109} INFO - [2022-07-11 06:33:50,134] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:33:50,173] {logging_mixin.py:109} INFO - [2022-07-11 06:33:50,172] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:33:50,195] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.250 seconds
+[2022-07-11 06:34:20,613] {processor.py:163} INFO - Started process (PID=290) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:34:20,619] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:34:20,622] {logging_mixin.py:109} INFO - [2022-07-11 06:34:20,621] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:34:20,716] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:34:20,733] {logging_mixin.py:109} INFO - [2022-07-11 06:34:20,733] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:34:20,765] {logging_mixin.py:109} INFO - [2022-07-11 06:34:20,765] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:34:20,782] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.184 seconds
+[2022-07-11 06:34:50,852] {processor.py:163} INFO - Started process (PID=323) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:34:50,854] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:34:50,855] {logging_mixin.py:109} INFO - [2022-07-11 06:34:50,855] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:34:50,911] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:34:50,935] {logging_mixin.py:109} INFO - [2022-07-11 06:34:50,935] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:34:50,990] {logging_mixin.py:109} INFO - [2022-07-11 06:34:50,990] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:34:51,012] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.165 seconds
+[2022-07-11 06:35:21,188] {processor.py:163} INFO - Started process (PID=347) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:35:21,195] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:35:21,196] {logging_mixin.py:109} INFO - [2022-07-11 06:35:21,196] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:35:21,259] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:35:21,276] {logging_mixin.py:109} INFO - [2022-07-11 06:35:21,276] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:35:21,308] {logging_mixin.py:109} INFO - [2022-07-11 06:35:21,308] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:35:21,324] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.141 seconds
+[2022-07-11 06:35:51,532] {processor.py:163} INFO - Started process (PID=371) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:35:51,536] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:35:51,537] {logging_mixin.py:109} INFO - [2022-07-11 06:35:51,537] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:35:51,637] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:35:51,659] {logging_mixin.py:109} INFO - [2022-07-11 06:35:51,659] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:35:51,707] {logging_mixin.py:109} INFO - [2022-07-11 06:35:51,707] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:35:51,737] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.214 seconds
+[2022-07-11 06:36:22,056] {processor.py:163} INFO - Started process (PID=395) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:36:22,060] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:36:22,061] {logging_mixin.py:109} INFO - [2022-07-11 06:36:22,061] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:36:22,136] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:36:22,151] {logging_mixin.py:109} INFO - [2022-07-11 06:36:22,151] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:36:22,178] {logging_mixin.py:109} INFO - [2022-07-11 06:36:22,177] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:36:22,191] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.163 seconds
+[2022-07-11 06:36:52,388] {processor.py:163} INFO - Started process (PID=419) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:36:52,391] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:36:52,392] {logging_mixin.py:109} INFO - [2022-07-11 06:36:52,391] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:36:52,461] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:36:52,480] {logging_mixin.py:109} INFO - [2022-07-11 06:36:52,480] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:36:52,511] {logging_mixin.py:109} INFO - [2022-07-11 06:36:52,511] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:36:52,539] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.159 seconds
+[2022-07-11 06:37:22,813] {processor.py:163} INFO - Started process (PID=443) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:37:22,819] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:37:22,822] {logging_mixin.py:109} INFO - [2022-07-11 06:37:22,822] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:37:22,972] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:37:23,000] {logging_mixin.py:109} INFO - [2022-07-11 06:37:22,999] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:37:23,049] {logging_mixin.py:109} INFO - [2022-07-11 06:37:23,048] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:37:23,069] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.277 seconds
+[2022-07-11 06:37:53,228] {processor.py:163} INFO - Started process (PID=468) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:37:53,229] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:37:53,230] {logging_mixin.py:109} INFO - [2022-07-11 06:37:53,230] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:37:53,270] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:37:53,286] {logging_mixin.py:109} INFO - [2022-07-11 06:37:53,286] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:37:53,311] {logging_mixin.py:109} INFO - [2022-07-11 06:37:53,311] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:37:53,328] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.104 seconds
+[2022-07-11 06:38:23,582] {processor.py:163} INFO - Started process (PID=491) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:38:23,593] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:38:23,595] {logging_mixin.py:109} INFO - [2022-07-11 06:38:23,595] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:38:23,747] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:38:23,775] {logging_mixin.py:109} INFO - [2022-07-11 06:38:23,775] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:38:23,838] {logging_mixin.py:109} INFO - [2022-07-11 06:38:23,838] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:38:23,869] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.303 seconds
+[2022-07-11 06:38:54,150] {processor.py:163} INFO - Started process (PID=517) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:38:54,156] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:38:54,158] {logging_mixin.py:109} INFO - [2022-07-11 06:38:54,158] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:38:54,239] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:38:54,257] {logging_mixin.py:109} INFO - [2022-07-11 06:38:54,257] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:38:54,283] {logging_mixin.py:109} INFO - [2022-07-11 06:38:54,283] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:38:54,307] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.174 seconds
+[2022-07-11 06:39:24,666] {processor.py:163} INFO - Started process (PID=541) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:39:24,673] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:39:24,677] {logging_mixin.py:109} INFO - [2022-07-11 06:39:24,676] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:39:24,806] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:39:24,821] {logging_mixin.py:109} INFO - [2022-07-11 06:39:24,820] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:39:24,848] {logging_mixin.py:109} INFO - [2022-07-11 06:39:24,848] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:39:24,866] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.221 seconds
+[2022-07-11 06:39:55,061] {processor.py:163} INFO - Started process (PID=574) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:39:55,063] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:39:55,064] {logging_mixin.py:109} INFO - [2022-07-11 06:39:55,064] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:39:55,118] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:39:55,134] {logging_mixin.py:109} INFO - [2022-07-11 06:39:55,134] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:39:55,168] {logging_mixin.py:109} INFO - [2022-07-11 06:39:55,167] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:39:55,186] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.131 seconds
+[2022-07-11 06:40:25,399] {processor.py:163} INFO - Started process (PID=598) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:40:25,410] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:40:25,412] {logging_mixin.py:109} INFO - [2022-07-11 06:40:25,411] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:40:25,467] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:40:25,482] {logging_mixin.py:109} INFO - [2022-07-11 06:40:25,481] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:40:25,508] {logging_mixin.py:109} INFO - [2022-07-11 06:40:25,507] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:40:25,527] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.134 seconds
+[2022-07-11 06:40:55,799] {processor.py:163} INFO - Started process (PID=621) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:40:55,802] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:40:55,803] {logging_mixin.py:109} INFO - [2022-07-11 06:40:55,803] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:40:55,872] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:40:55,902] {logging_mixin.py:109} INFO - [2022-07-11 06:40:55,901] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:40:55,967] {logging_mixin.py:109} INFO - [2022-07-11 06:40:55,966] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:40:55,982] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.194 seconds
+[2022-07-11 06:41:26,253] {processor.py:163} INFO - Started process (PID=644) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:41:26,257] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:41:26,258] {logging_mixin.py:109} INFO - [2022-07-11 06:41:26,258] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:41:26,345] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:41:26,365] {logging_mixin.py:109} INFO - [2022-07-11 06:41:26,365] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:41:26,406] {logging_mixin.py:109} INFO - [2022-07-11 06:41:26,406] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:41:26,432] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.189 seconds
+[2022-07-11 06:41:56,634] {processor.py:163} INFO - Started process (PID=669) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:41:56,636] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:41:56,637] {logging_mixin.py:109} INFO - [2022-07-11 06:41:56,637] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:41:56,710] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:41:56,730] {logging_mixin.py:109} INFO - [2022-07-11 06:41:56,730] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:41:56,767] {logging_mixin.py:109} INFO - [2022-07-11 06:41:56,766] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:41:56,785] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.157 seconds
+[2022-07-11 06:42:27,213] {processor.py:163} INFO - Started process (PID=694) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:42:27,229] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:42:27,230] {logging_mixin.py:109} INFO - [2022-07-11 06:42:27,230] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:42:27,459] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:42:27,491] {logging_mixin.py:109} INFO - [2022-07-11 06:42:27,491] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:42:27,587] {logging_mixin.py:109} INFO - [2022-07-11 06:42:27,587] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:42:27,624] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.419 seconds
+[2022-07-11 06:42:57,698] {processor.py:163} INFO - Started process (PID=716) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:42:57,701] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:42:57,703] {logging_mixin.py:109} INFO - [2022-07-11 06:42:57,702] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:42:57,793] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:42:57,830] {logging_mixin.py:109} INFO - [2022-07-11 06:42:57,830] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:42:57,901] {logging_mixin.py:109} INFO - [2022-07-11 06:42:57,900] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:42:57,934] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.241 seconds
+[2022-07-11 06:43:28,050] {processor.py:163} INFO - Started process (PID=741) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:43:28,052] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:43:28,053] {logging_mixin.py:109} INFO - [2022-07-11 06:43:28,053] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:43:28,100] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:43:28,114] {logging_mixin.py:109} INFO - [2022-07-11 06:43:28,114] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:43:28,145] {logging_mixin.py:109} INFO - [2022-07-11 06:43:28,145] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:43:28,161] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.116 seconds
+[2022-07-11 06:43:58,939] {processor.py:163} INFO - Started process (PID=767) to work on /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:43:58,955] {processor.py:642} INFO - Processing file /opt/airflow/dags/upbit_bitcoin.py for tasks to queue
+[2022-07-11 06:43:58,958] {logging_mixin.py:109} INFO - [2022-07-11 06:43:58,957] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:43:59,245] {processor.py:654} INFO - DAG(s) dict_keys(['upbit_bitcoin']) retrieved from /opt/airflow/dags/upbit_bitcoin.py
+[2022-07-11 06:43:59,300] {logging_mixin.py:109} INFO - [2022-07-11 06:43:59,300] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-07-11 06:43:59,353] {logging_mixin.py:109} INFO - [2022-07-11 06:43:59,353] {dag.py:2937} INFO - Setting next_dagrun for upbit_bitcoin to 2022-07-08T07:00:00+00:00
+[2022-07-11 06:43:59,395] {processor.py:171} INFO - Processing /opt/airflow/dags/upbit_bitcoin.py took 0.473 seconds

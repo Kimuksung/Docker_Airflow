@@ -1,0 +1,125 @@
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-03T05:08:11.997169500Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts
+[2022-07-03T05:08:12.040884000Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts os.Symlink <HOME>/.docker/contexts -> /mnt/c/Users/kimuk/.docker/contexts
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-03T05:08:12.616704100Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.aws, linkPath = <HOME>/.aws
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-03T05:08:13.401370800Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.azure, linkPath = <HOME>/.azure
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-03T05:08:14.414335500Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-16T04:52:41.070945600Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts
+[2022-07-16T04:52:41.095588600Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-16T04:52:41.489763000Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.aws, linkPath = <HOME>/.aws
+[2022-07-16T04:52:41.508183500Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.aws to /mnt/c/Users/kimuk/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-16T04:52:41.922136200Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.azure, linkPath = <HOME>/.azure
+[2022-07-16T04:52:41.939213500Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.azure to /mnt/c/Users/kimuk/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-16T04:52:42.375840800Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.docker/features.json, linkPath = ~/.docker/features.json
+[2022-07-16T04:52:42.404574100Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.docker/features.json to /mnt/c/Users/kimuk/.docker/features.json: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-16T07:22:35.756691500Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts
+[2022-07-16T07:22:35.792522600Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-16T07:22:36.166753400Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.aws, linkPath = <HOME>/.aws
+[2022-07-16T07:22:36.194696500Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.aws to /mnt/c/Users/kimuk/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-16T07:22:36.751365900Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.azure, linkPath = <HOME>/.azure
+[2022-07-16T07:22:36.817865200Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.azure to /mnt/c/Users/kimuk/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-16T07:22:37.443445600Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.docker/features.json, linkPath = ~/.docker/features.json
+[2022-07-16T07:22:37.491894200Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.docker/features.json to /mnt/c/Users/kimuk/.docker/features.json: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-18T04:43:14.169496400Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts
+[2022-07-18T04:43:14.205684100Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-18T04:43:14.723899500Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.aws, linkPath = <HOME>/.aws
+[2022-07-18T04:43:14.744419800Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.aws to /mnt/c/Users/kimuk/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-18T04:43:15.313557600Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.azure, linkPath = <HOME>/.azure
+[2022-07-18T04:43:15.332571000Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.azure to /mnt/c/Users/kimuk/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-18T04:43:15.930974500Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.docker/features.json, linkPath = ~/.docker/features.json
+[2022-07-18T04:43:15.960075500Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.docker/features.json to /mnt/c/Users/kimuk/.docker/features.json: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T03:46:58.509477500Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts
+[2022-07-19T03:46:58.562540300Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T03:46:59.052776800Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.aws, linkPath = <HOME>/.aws
+[2022-07-19T03:46:59.073599000Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.aws to /mnt/c/Users/kimuk/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T03:46:59.647831300Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.azure, linkPath = <HOME>/.azure
+[2022-07-19T03:46:59.665909000Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.azure to /mnt/c/Users/kimuk/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T03:47:00.204106100Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.docker/features.json, linkPath = ~/.docker/features.json
+[2022-07-19T03:47:00.271532700Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.docker/features.json to /mnt/c/Users/kimuk/.docker/features.json: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T05:29:07.096983800Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts
+[2022-07-19T05:29:07.114379700Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T05:29:07.474239900Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.aws, linkPath = <HOME>/.aws
+[2022-07-19T05:29:07.486697800Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.aws to /mnt/c/Users/kimuk/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T05:29:07.904081700Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.azure, linkPath = <HOME>/.azure
+[2022-07-19T05:29:07.917216200Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.azure to /mnt/c/Users/kimuk/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T05:29:08.335544600Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.docker/features.json, linkPath = ~/.docker/features.json
+[2022-07-19T05:29:08.356526200Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.docker/features.json to /mnt/c/Users/kimuk/.docker/features.json: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T06:18:36.217767700Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts
+[2022-07-19T06:18:36.237727100Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T06:18:36.669837600Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.aws, linkPath = <HOME>/.aws
+[2022-07-19T06:18:36.722798300Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.aws to /mnt/c/Users/kimuk/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T06:18:37.108914600Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.azure, linkPath = <HOME>/.azure
+[2022-07-19T06:18:37.122565200Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.azure to /mnt/c/Users/kimuk/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-19T06:18:37.561282400Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.docker/features.json, linkPath = ~/.docker/features.json
+[2022-07-19T06:18:37.590368800Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.docker/features.json to /mnt/c/Users/kimuk/.docker/features.json: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-20T04:09:05.023758500Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts
+[2022-07-20T04:09:05.044693800Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kimuk/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-20T04:09:05.391049600Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.aws, linkPath = <HOME>/.aws
+[2022-07-20T04:09:05.407139600Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.aws to /mnt/c/Users/kimuk/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-20T04:09:05.798085100Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.azure, linkPath = <HOME>/.azure
+[2022-07-20T04:09:05.816284500Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.azure to /mnt/c/Users/kimuk/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2022-07-20T04:09:06.175682700Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/kimuk/.docker/features.json, linkPath = ~/.docker/features.json
+[2022-07-20T04:09:06.198003800Z][docker-desktop-user-distro][I] no need to symlink <HOME>/.docker/features.json to /mnt/c/Users/kimuk/.docker/features.json: they are the same path already

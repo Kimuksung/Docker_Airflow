@@ -1,0 +1,35 @@
+[2022-07-20 07:03:48,787] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: Upbit_api.insert_bitcoin scheduled__2022-07-20T04:00:00+00:00 [queued]>
+[2022-07-20 07:03:48,829] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: Upbit_api.insert_bitcoin scheduled__2022-07-20T04:00:00+00:00 [queued]>
+[2022-07-20 07:03:48,829] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 07:03:48,829] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2022-07-20 07:03:48,829] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 07:03:48,940] {taskinstance.py:1264} INFO - Executing <Task(PostgresOperator): insert_bitcoin> on 2022-07-20 04:00:00+00:00
+[2022-07-20 07:03:48,947] {standard_task_runner.py:52} INFO - Started process 3173 to run task
+[2022-07-20 07:03:48,992] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Upbit_api', 'insert_bitcoin', 'scheduled__2022-07-20T04:00:00+00:00', '--job-id', '213', '--raw', '--subdir', 'DAGS_FOLDER/Upbit_Api.py', '--cfg-path', '/tmp/tmp0bqs5pcb', '--error-file', '/tmp/tmp05bkrbpe']
+[2022-07-20 07:03:48,993] {standard_task_runner.py:77} INFO - Job 213: Subtask insert_bitcoin
+[2022-07-20 07:03:49,219] {logging_mixin.py:109} INFO - Running <TaskInstance: Upbit_api.insert_bitcoin scheduled__2022-07-20T04:00:00+00:00 [running]> on host 0741836b2d3b
+[2022-07-20 07:03:49,718] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=kimuksung2
+AIRFLOW_CTX_DAG_ID=Upbit_api
+AIRFLOW_CTX_TASK_ID=insert_bitcoin
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-20T04:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-20T04:00:00+00:00
+[2022-07-20 07:03:49,747] {base.py:79} INFO - Using connection to: id: postgres_xcom_test. Host: postgres, Port: 5432, Schema: test, Login: ***, Password: ***, extra: {}
+[2022-07-20 07:03:49,796] {dbapi.py:225} INFO - Running statement: 
+            insert into bitcoin (name , time_utc , time_ktc , opening_price , high_price , low_price , trade_price ) 
+            values (
+                'KRW-BTC',
+                '2022-07-20T03:59:00',
+                '2022-07-20T12:59:00',
+                30705000.0,
+                30725000.0,
+                30705000.0,
+                30723000.0
+            )
+        , parameters: None
+[2022-07-20 07:03:49,805] {dbapi.py:233} INFO - Rows affected: 1
+[2022-07-20 07:03:49,838] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=Upbit_api, task_id=insert_bitcoin, execution_date=20220720T040000, start_date=20220720T070348, end_date=20220720T070349
+[2022-07-20 07:03:49,929] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-20 07:03:50,042] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
