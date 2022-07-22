@@ -15,7 +15,7 @@ So, introduce how to work docker running
 
 # Airflow
 
-> Airflow is workflow build and executed platform.
+> Airflow is workflow to help build task and executed task platform.
 > Workflow is Task's flow.
 
 ## [Why Airflow?](https://dortmoot.tistory.com/63)
