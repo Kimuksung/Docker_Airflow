@@ -4,7 +4,7 @@
 >
 > So If you use Window, you have to install WSL2
 
-So, introduce how work docker running
+So, introduce how to work docker running
 
 [Docker Basic](https://dortmoot.tistory.com/89)
 
