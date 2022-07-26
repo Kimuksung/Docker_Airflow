@@ -1,8 +1,8 @@
 # Docker 
 
 > Docker Use LXC(Linux Container) Skill.
->
-> So If you use Window, you have to install WSL2
+
+If you use Window, you have to install WSL2
 
 So, introduce how to work docker running
 
