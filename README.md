@@ -2,6 +2,7 @@
 
 > Docker Use LXC(Linux Container) Skill.
 
+
 If you use Window, you have to install WSL2
 
 So, introduce how to work docker running
@@ -15,9 +16,11 @@ So, introduce how to work docker running
 
 # Airflow
 
-> Airflow is workflow to help build task and executed task platform.
+> Airflow is a platform to programmatically author, schedule and monitor workflows.
 > 
-> Workflow is Task's flow.
+- Data engineering에서는 ETL(Extract/Transform/Load) 과정을 통해 Data 가공, 적재
+- ML에서도 학습 데이터 전처리,Train,Prediction 시 사용
+- 위와 같이 Sequential한 로직(Output->Input으로 동작)들을 한번에 관리 할 경우
 
 ## [Why Airflow?](https://dortmoot.tistory.com/63)
 1. [Setup Airflow](https://dortmoot.tistory.com/57)
